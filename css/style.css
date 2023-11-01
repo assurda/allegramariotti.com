@@ -1,3 +1,33 @@
+.logoam {
+    width: 60px;
+    padding: 15px 0;
+}
+
+#header_main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffffaa;
+    z-index: 10;
+}
+
+#header_nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#header_nav ul li {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+#header_nav ul li:last-child {
+    margin-right: 0;
+
+}
+
 #hero {
     position: relative;
 }
