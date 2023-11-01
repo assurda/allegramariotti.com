@@ -1,0 +1,15 @@
+
+@media (min-width: 576px) { 
+    .h1_home {
+        font-family: 'Sacramento', cursive;
+        font-size: 6rem;
+        color: red;
+    }
+ }  
+
+ @media (min-width: 992px) { 
+    .h1_home {
+        font-size: 8rem;
+        color: blue;
+    }
+  }

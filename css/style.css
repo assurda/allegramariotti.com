@@ -22,3 +22,14 @@
     position: relative;
     z-index: 1;
 }
+
+#col_icon {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.h1_home {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+}
