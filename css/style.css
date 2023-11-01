@@ -16,6 +16,7 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    display: none;
 }
 
 #header_nav ul li {
@@ -25,7 +26,6 @@
 
 #header_nav ul li:last-child {
     margin-right: 0;
-
 }
 
 #hero {

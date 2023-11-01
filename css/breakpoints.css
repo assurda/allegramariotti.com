@@ -3,6 +3,14 @@
     .h1_home {
         font-size: 6rem;
     }
+
+    #trigger_nav {
+        display: none;
+    }
+
+    #header_nav ul {
+        display: block;
+    }
  }  
 
  @media (min-width: 992px) { 
