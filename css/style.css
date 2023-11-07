@@ -58,8 +58,12 @@
     margin-bottom: 12px;
 }
 
-.h1_home {
+h1, h2, h3, h4, h5, 
+.h1, .h2, .h3, .h4, .h5 {
     font-family: 'Mulish', sans-serif;
     font-weight: 800;
+}
+
+.h1_home {
     font-size: 3rem;
 }
