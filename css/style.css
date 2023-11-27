@@ -67,3 +67,44 @@ h1, h2, h3, h4, h5,
 .h1_home {
     font-size: 3rem;
 }
+
+footer {
+    position: relative;
+    background: rgb(195,188,224);
+    background: radial-gradient(circle, rgba(195,188,224,1) 0%, rgba(255,206,227,1) 100%);
+}
+
+footer::before {
+    content:"";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../imgs/noise.png');
+    background-size: 60px;
+    background-repeat: repeat;
+    opacity: .4;
+}
+
+footer .container {
+    position: relative;
+    z-index: 1;
+}
+
+.logo_footer {
+    width: 60px;
+}
+
+.footer_icon {
+    display: inline-block;
+    padding: 0 12px;
+
+}
+
+.footer_icon i {
+    font-size: 16px;
+    color: #111;
+
+}
